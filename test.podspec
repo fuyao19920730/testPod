@@ -18,17 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+			this is my test pod
                        DESC
 
-  s.homepage         = 'https://github.com/YAO FU/test'
+  s.homepage         = 'https://github.com/fuyao19920730?tab=repositories'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'YAO FU' => '511089925@qq.com' }
-  s.source           = { :git => 'https://github.com/YAO FU/test.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/fuyao19920730/testPod.git', :tag => s.version }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'test/Classes/**/*'
   
